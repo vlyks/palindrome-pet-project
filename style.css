@@ -1,0 +1,48 @@
+body {
+    background: black;
+    color: aliceblue;
+    font-family: monospace;
+    text-shadow: 2px 2px 4px rgb(255, 0, 247);
+}
+
+.content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-content: center;
+        align-items: center;
+        
+}
+
+.inthing {
+    align-self: auto;
+    padding: 40px;
+    height: 20vh;
+    font-size: 25px;
+}
+
+input {
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+    height: 30px;
+    
+}
+
+button {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(255, 0, 247);
+    transition: 0.4s;
+    height: 20px;
+    width: 60px;
+}
+
+button:hover {
+    box-shadow: 2px 2px 2px lightgreen;
+    height: 35px;
+    width: 70px;
+    cursor: pointer;
+}
